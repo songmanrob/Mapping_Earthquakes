@@ -151,9 +151,10 @@ legend.onAdd = function() {
 
 legend.addTo(map);
 
+// Getting tectonic plate data from URL
 let plates = "https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
 
-// Create a style for the lines.
+// Create a style for the linestrings.
 let myStyle = {
 	color: "#FF5C00",
   weight: 3,
